@@ -1,0 +1,52 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(-90deg, #751c1a, #ffc500);
+  font-family: "Istok Web", sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+article h1 {
+  margin: 1rem 0;
+}
+
+@media only screen and (max-width: 620px) {
+  .inputs_container input {
+    width: 100%;
+  }
+
+  .login_button {
+    width: 100%;
+  }
+
+  .error_msg {
+    padding-left: 0.2rem;
+  }
+}
+
+@media only screen and (max-height: 670px) {
+  .subtitle {
+    margin-bottom: 2rem;
+  }
+
+  .small {
+    margin-bottom: 3rem;
+  }
+}
